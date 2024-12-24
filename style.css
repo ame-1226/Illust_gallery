@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  /*cursor: url(images/sleep3.1.png), default; 
+  /*z-index: 1000;
+  pointer-events: none;
+  */
+  background-color: rgb(96, 101, 114);
+    
+}
+
+
+header {
+  color: #FFF;
+  padding: 10px 20px;
+  position: relative;
+  top: 0;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-family: 'Kalam','Kiwi Maru', cursive, serif;
+  font-size: 30px;
+}
+
+header h1 a {
+  color: #FFF;
+}
+
+.header h1 a:hover {
+color:#fcf25c;
+}
+
+.main-menu {
+  color: #FFF;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+.main-menu ul {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .main-menu ul li a {
+    color: #FFF;
+    width: auto;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+
+  .main-menu ul li a:hover {
+    color: #fcf25c;
+  }
+
+  main span{
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+  }
+  
+  
+  
+  main li a:hover {
+    color: #d3ca4d;
+  }
+  
+  .main-menu {
+    font-family: 'Kalam','Kiwi Maru', cursive, serif;
+  }
+
+  main {
+    color: #8a6856;
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    font-family:  'Kiwi Maru', cursive, serif;
+    /*text-align: center;*/
+    margin: 0 auto;
+  }
+
+  .main-vl img{
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+
+ h1 {
+    text-align: center;
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+  
+  #gallery {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px 20px;
+  }
+  
+  .img-item {
+    opacity: 0;
+    filter: blur(10px);
+    width: 100%;
+  }
+  
+  .img-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-item p {
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    color: #EEE;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .pict {
+    width: 100%;
+    flex: 2;
+    
+  }
+  
+  .text {
+    text-align: left;
+    margin-left: 20px;
+    flex: 1;
+  }
